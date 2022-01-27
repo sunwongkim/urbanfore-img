@@ -14,7 +14,12 @@
     </style>
   </head>
   <body>
-    <img src="img/home.png" alt="urbanfore" />
+    <picture>
+      <source srcset="img/home-pc.png" media="(min-width: 769px)" />
+      <source srcset="img/home.png" media="(max-width: 768px)" />
+      <img src="img/home-pc.png" alt="이미지" />
+    </picture>
+    <!-- <img src="img/home.png" alt="urbanfore" /> -->
     <p>
       <a href="index.html">홈</a>
       <a href="saleList/saleList.html">매물 목록</a>
